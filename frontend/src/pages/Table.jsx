@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const API = "https://media-nv-2.onrender.com";
+const API = "http://localhost:3000";
 
 export default function Candidates() {
   const [list, setList] = useState([]);
