@@ -22,4 +22,4 @@ app.listen(PORT , () =>{
     console.log("server running on port :" , PORT)
 })
 
-console.log(process.env.HOST)
+console.log(typeof(process.env.PASSWORD))

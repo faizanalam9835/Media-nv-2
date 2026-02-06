@@ -17,7 +17,7 @@ export default function Candidates() {
     Applied_position: "",
   });
   const getAll = async () => {
-    const res = await fetch(`${API}/getall`);
+    const res = await fetch(`${API}/getAll`);
     const data = await res.json();
     setList(data);
     console.log(data)

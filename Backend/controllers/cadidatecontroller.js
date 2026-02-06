@@ -77,7 +77,7 @@ const updateCandidate = async (req, res) => {
       .join(", ");
 
     const query = `
-      UPDATE candidates
+      UPDATE Candiates
       SET ${setQuery}
       WHERE id = $${keys.length + 1}
       RETURNING *;
